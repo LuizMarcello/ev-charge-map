@@ -1,4 +1,5 @@
 <template>
+  <div>Esta é a RoutePage</div>
   <router-view />
 </template>
 
