@@ -1,6 +1,6 @@
 <template>
   <q-page id="savedRoutes">
-    <div>Esta é a SavedRoutes</div>
+    <!-- <div>Esta é a SavedRoutes</div> -->
     <q-toolbar class="text-white bg-teal-8">
       <q-toolbar-title> Rotas salvas </q-toolbar-title>
       <q-btn flat round dense icon="add" size="20px" />

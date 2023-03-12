@@ -3,23 +3,38 @@ const routes = [{
     path: "/",
     component: () => import("layouts/MainLayout.vue"),
     children: [{
-      path: "/route",
-      component: () => import("pages/RoutePage.vue"),
+        path: "/route",
+        component: () => import("pages/RoutePage.vue"),
 
-      children: [{
-          path: "",
-          component: () => import("pages/route/RouteSelect.vue"),
-        },
-        {
-          path: "add-route",
-          component: () => import("pages/route/AddRoute.vue"),
-        },
-        {
-          path: "saved-routes",
-          component: () => import("pages/route/SavedRoutes.vue"),
-        },
-      ],
-    }, ],
+        children: [{
+            path: "",
+            component: () => import("pages/route/RouteSelect.vue"),
+          },
+          {
+            path: "add-route",
+            component: () => import("pages/route/AddRoute.vue"),
+          },
+          {
+            path: "saved-routes",
+            component: () => import("pages/route/SavedRoutes.vue"),
+          },
+        ],
+      },
+      {
+        path: "/auth",
+        component: () => import("pages/AuthPage.vue"),
+
+        children: [{
+            path: "",
+            component: () => import("pages/auth/LoginSection.vue"),
+          },
+          {
+            path: "register",
+            component: () => import("pages/auth/RegisterSection.vue"),
+          },
+        ]
+      }
+    ]
   },
 
   // Always leave this as last one,

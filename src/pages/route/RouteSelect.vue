@@ -4,7 +4,7 @@
       <q-toolbar-title>Rota</q-toolbar-title>
       <q-btn to="/route/saved-routes" flat round dense icon="favorites" color="red" />
     </q-toolbar>
-    <div>Esta é a RouteSelect</div>
+    <!-- <div>Esta é a RouteSelect</div> -->
     <div class="q-pa-md form-style">
       <div class="text-h6 q-pb-md">Para onde você gostaria de ir?</div>
 

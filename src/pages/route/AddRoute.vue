@@ -1,7 +1,7 @@
 <!-- eslint-disable -->
 <template>
   <q-page id="addRoute">
-    <div>Esta é a AddRoute</div>
+    <!-- <div>Esta é a AddRoute</div> -->
     <q-toolbar class="text-white bg-teal-8">
       <q-toolbar-title> Adicionar rotas </q-toolbar-title>
       <q-btn to="/route/saved-routes" flat round dense icon="favorites" color="red" />

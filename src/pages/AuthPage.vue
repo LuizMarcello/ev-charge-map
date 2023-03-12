@@ -1,4 +1,5 @@
 <template>
+  <div>Esta é a AuthPage</div>
   <router-view />
 </template>
 
