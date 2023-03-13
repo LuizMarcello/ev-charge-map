@@ -1,4 +1,5 @@
 <template>
+  <div>Esta é a AccountPage</div>
   <router-view />
 </template>
 
